@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T14:40:30 IST" name="Default suite" finished-at="2026-01-06T14:40:33 IST" duration-ms="3042">
+    <groups>
+    </groups>
+    <test started-at="2026-01-06T14:40:30 IST" name="Default test" finished-at="2026-01-06T14:40:33 IST" duration-ms="3042">
+      <class name="testcases.BasicTest_NonBDDStyle">
+        <test-method signature="positiveTestcase()[pri:1, instance:testcases.BasicTest_NonBDDStyle@4550bb58]" started-at="2026-01-06T14:40:30 IST" name="positiveTestcase" finished-at="2026-01-06T14:40:33 IST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestcase -->
+        <test-method signature="negativeTestcase1()[pri:2, instance:testcases.BasicTest_NonBDDStyle@4550bb58]" started-at="2026-01-06T14:40:33 IST" name="negativeTestcase1" finished-at="2026-01-06T14:40:33 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestcase1 -->
+        <test-method signature="negativeTestcase2()[pri:3, instance:testcases.BasicTest_NonBDDStyle@4550bb58]" started-at="2026-01-06T14:40:33 IST" name="negativeTestcase2" finished-at="2026-01-06T14:40:33 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestcase2 -->
+      </class> <!-- testcases.BasicTest_NonBDDStyle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
