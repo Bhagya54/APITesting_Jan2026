@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="AllHttpMethods.Post_CreateBooking">
+      <class name="AllHttpMethods.Put_UpdateBooking">
         <methods>
-          <include name="createToken"/>
+          <include name="createBookingTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- AllHttpMethods.Post_CreateBooking -->
+      </class> <!-- AllHttpMethods.Put_UpdateBooking -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

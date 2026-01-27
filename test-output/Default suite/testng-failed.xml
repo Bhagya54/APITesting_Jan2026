@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AllHttpMethods.Post_CreateBooking">
+      <class name="assertions.Assertion_TestNG">
         <methods>
-          <include name="createToken"/>
+          <include name="createBooking"/>
         </methods>
-      </class> <!-- AllHttpMethods.Post_CreateBooking -->
+      </class> <!-- assertions.Assertion_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

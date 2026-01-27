@@ -25,8 +25,10 @@ public class BasicTest_NonBDDStyle {
 		
 		res=req.when().get();
 		
+		
 		vRes=res.then();
-		vRes.statusCode(200);		
+		vRes.statusCode(200);
+		
 
 	}
 	

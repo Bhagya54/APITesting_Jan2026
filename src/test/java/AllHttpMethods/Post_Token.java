@@ -1,5 +1,6 @@
 package AllHttpMethods;
 
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -16,7 +17,7 @@ public class Post_Token {
 	Response res;
 	ValidatableResponse vRes;
 	@Test
-	public void createToken() {
+	public void createToken(ITestContext context) {
 		String payload="{\r\n"
 				+ "    \"username\" : \"admin\",\r\n"
 				+ "    \"password\" : \"password123\"\r\n"
@@ -34,6 +35,7 @@ public class Post_Token {
 		
 		String token=vRes.extract().path("token").toString();
 		System.out.println("Token generated: " +token);
+		context.setAttribute("token_id", token);
 		
 	}
 }

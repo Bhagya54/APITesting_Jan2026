@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="AllHttpMethods.Post_CreateBooking"/>
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="AllHttpMethods.Post_Token" />
+			<class name="AllHttpMethods.Post_CreateBooking" />
+			<class name="AllHttpMethods.Get_RetriveBooking" />
+			<class name="AllHttpMethods.Put_UpdateBooking" />
+			<class name="AllHttpMethods.Delete_Booking" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
