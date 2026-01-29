@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertions.Assertion_TestNG">
+      <class name="payloadManagement.HashMap_payload">
         <methods>
           <include name="createBooking"/>
         </methods>
-      </class> <!-- assertions.Assertion_TestNG -->
+      </class> <!-- payloadManagement.HashMap_payload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

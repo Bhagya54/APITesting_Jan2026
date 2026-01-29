@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-27T14:07:35 IST" name="Suite" finished-at="2026-01-27T14:07:44 IST" duration-ms="9533">
+  <suite started-at="2026-01-29T13:48:33 IST" name="Default suite" finished-at="2026-01-29T13:48:39 IST" duration-ms="6249">
     <groups>
     </groups>
-    <test started-at="2026-01-27T14:07:35 IST" name="Test" finished-at="2026-01-27T14:07:44 IST" duration-ms="9533">
-      <class name="assertions.Assertion_TestNG">
-        <test-method signature="createBooking()[pri:0, instance:assertions.Assertion_TestNG@194fad1]" started-at="2026-01-27T14:07:42 IST" name="createBooking" finished-at="2026-01-27T14:07:43 IST" duration-ms="1434" status="PASS">
+    <test started-at="2026-01-29T13:48:33 IST" name="Default test" finished-at="2026-01-29T13:48:39 IST" duration-ms="6249">
+      <class name="payloadManagement.JSONObject_payload">
+        <test-method signature="createBooking()[pri:0, instance:payloadManagement.JSONObject_payload@55cb6996]" started-at="2026-01-29T13:48:33 IST" name="createBooking" finished-at="2026-01-29T13:48:39 IST" duration-ms="5991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-      </class> <!-- assertions.Assertion_TestNG -->
-      <class name="assertions.Assertion_AssertJ">
-        <test-method signature="createBooking()[pri:0, instance:assertions.Assertion_AssertJ@26abb146]" started-at="2026-01-27T14:07:43 IST" name="createBooking" finished-at="2026-01-27T14:07:44 IST" duration-ms="1226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBooking -->
-      </class> <!-- assertions.Assertion_AssertJ -->
-      <class name="assertions.Assertion_HamcrestMatcher">
-        <test-method signature="createBooking()[pri:0, instance:assertions.Assertion_HamcrestMatcher@5b38c1ec]" started-at="2026-01-27T14:07:35 IST" name="createBooking" finished-at="2026-01-27T14:07:42 IST" duration-ms="6648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBooking -->
-      </class> <!-- assertions.Assertion_HamcrestMatcher -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- payloadManagement.JSONObject_payload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
